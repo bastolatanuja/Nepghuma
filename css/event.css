@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap");
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  -webkit-transition: all .2s linear;
+  transition: all .2s linear;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-padding-top: 9rem;
+  
+}
+body{
+    background-color: black;
+}
+
+
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -2;
+    
+  }
+
+  p.big{
+   
+    font-family: Trebuchet MS;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    font-size: 60px;
+    color:  #29d9d5;
+  }
+  p.small{
+    
+    font-family: Trebuchet MS;
+    font-weight: normal;
+    text-align: center;
+    position: relative;
+    font-size: 30px;
+    color:  #29d9d5;
+}
+
+  h1, h2 {
+    color: white;
+    font-family: Trebuchet MS;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    
+    
+    
+    
+    
+    
+  }
+  
+  h1 {
+    font-size: 6rem;
+    margin-top: 60vh;
+    
+    
+   
+  }
+  
+  h2 { font-size: 3rem;
+    
+        }
+
+.rest{
+          margin-top: 20vh;
+}
+
+.btn{
+    border-radius: 5rem;
+    border: 0.3rem solid white;
+    display: inline-block;
+    font-size: 1.7rem;
+    display: flex;
+    margin-top: 5px;
+    
+    
+}
+
+.butn {
+  margin-top: 1rem;
+  display: inline-block;
+  padding: 1rem 3rem;
+  font-size: 1.7rem;
+  color: #29d9d5;
+  border: 0.2rem solid #29d9d5;
+  border-radius: 5rem;
+  cursor: pointer;
+  background: none;
+}
+
+.butn:hover {
+  background: #29d9d5;
+  color: #111;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background: #222;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1.5rem 9%;
+}
+img.hotel{
+    border-radius: 50%;
+    width:  10px;
+    height: 200px;
+    padding: 30px;
+    
+   
+   
+}
+
+.header .navbar a {
+  font-size: 1.7rem;
+  color: #aaa;
+  display: inline-block;
+  margin: 0 1rem;
+}
+
+.header .navbar a:hover {
+  color: #29d9d5;
+}
+
+.header .butn {
+  margin-top: 0;
+}
+
+.row {
+    width :80%;
+    
+    margin: auto;
+    
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
