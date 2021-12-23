@@ -1,0 +1,21 @@
+.headone{
+    background-color:#2F2B2B;
+    height: 70px;
+}
+
+.second{
+    background-color: black;
+    height: calc(100% - 70px);
+    padding-left: 0px;
+}
+
+.second  .col-lg-12{
+    width:95%;
+    max-width: 100%;
+    margin-bottom:4%;
+    margin-left: 2%;
+    margin-right:2%;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 3%;
+}
