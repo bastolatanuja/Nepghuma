@@ -155,8 +155,8 @@ section {
 
 .home .content span {
   font-weight: bolder;
-  color: transparent;
-  -webkit-text-stroke: 0.1rem #fff;
+  color: #29d9d5;
+  -webkit-text-stroke: 0.2rem rgb(10, 9, 9);
   font-size: 4vw;
   display: block;
 }
