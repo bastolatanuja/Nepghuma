@@ -156,7 +156,7 @@ section {
 .home .content span {
   font-weight: bolder;
   color: #29d9d5;
-  -webkit-text-stroke: 0.2rem rgb(10, 9, 9);
+  -webkit-text-stroke: 0.2rem rgb(15, 13, 13);
   font-size: 4vw;
   display: block;
 }
