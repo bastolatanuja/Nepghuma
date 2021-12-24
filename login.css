@@ -1,0 +1,110 @@
+.headone{
+    position:relative;
+}
+
+.headone .tittlee{
+    font-weight: lighter;
+    position: absolute;
+    font-size: xx-large;
+    color:#29d9d5;
+    margin-top: 17px;
+    margin-left:5px;
+ 
+}
+.headone{
+    background-color:#2F2B2B;
+    height: 70px;
+}
+.second{
+    background-color: black;
+    height: calc(100% - 70px);
+    padding-left: 0px;
+}
+
+ .bodycontent{
+
+    width:360px;
+    max-width:100%;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 30px;
+   position: relative;
+   background-color: black;
+}
+.createaccount{
+
+    width:450px;
+    max-width:100%;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 270px;
+   position: relative;
+  
+
+}
+.content{
+    position: relative;
+    border:#29d9d5 3px solid;
+    border-radius: 3%;
+    width:400px;
+    padding-left:30px
+   
+}
+
+.nepghum{
+    color:white;
+    text-align: center;
+    padding-top:45px;
+}
+
+
+
+.bodycontent .content input{
+    width:90%;
+    height:40px;
+    border-color:#2F2B2B;
+    margin-bottom:20px;
+    border-radius: 9px;
+    margin-right: 10px;
+    margin-top: 0px;
+}
+
+.bodycontent .content .fbtn{
+    background-color:#111;
+    border-color: #29d9d5;
+    border-radius:25px;
+    width:110px;
+    color: #29d9d5;
+    margin-left:210px;
+  
+  
+}
+
+#error{
+   
+    background-color:tomato;
+    
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 2px;
+    font-style: italic;
+   font-weight: normal;
+} 
+
+.createaccount p{
+    color:white;
+    text-align: right;
+    margin-bottom: 0px;
+}
+
+.createaccount .sbtn{
+    background-color:#111;
+    border-color: #29d9d5;
+    border-radius:25px;
+    width:150px;
+    margin-left:300px;
+    padding-top: 0px;
+    margin-top:0px;
+    color: #29d9d5;
+    
+    
+}
