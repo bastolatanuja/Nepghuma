@@ -72,28 +72,28 @@ body{
   }
   
   h1 {
-    font-size: 6rem;
-    margin-top: 60vh;
+    font-size: 10rem;
+    margin-top: 50vh;
     
     
    
   }
   
-  h2 { font-size: 3rem;
+  h2 { font-size: 6rem;
     
         }
 
 .rest{
-          margin-top: 20vh;
+          margin-top: 23vh;
 }
 
 .btn{
     border-radius: 5rem;
-    border: 0.3rem solid white;
+    border: 0.3rem solid #29d9d5;
     display: inline-block;
     font-size: 1.7rem;
     display: flex;
-    margin-top: 5px;
+    margin-top: 50px;
     
     
 }
@@ -134,10 +134,12 @@ body{
   padding: 1.5rem 9%;
 }
 img.hotel{
-    border-radius: 50%;
-    width:  10px;
-    height: 200px;
-    padding: 30px;
+    border-radius: 10%;
+    width:  500px;
+    height: 250px;
+    padding: 0px;
+    
+    
     
    
    
@@ -163,9 +165,12 @@ img.hotel{
     
     margin: auto;
     
+    
+    
   }
   
   .column {
     flex: 33.33%;
-    padding: 5px;
+    padding: 80px;
+    
   }
