@@ -1,0 +1,40 @@
+.guideform .form {
+  width: 900px;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: black;
+}
+
+h1 {
+  color: rgb(84, 156, 165);
+}
+
+label {
+  color: white;
+  font-size: medium;
+  font-weight: bold;
+  margin-bottom: 3%;
+}
+
+input {
+  width: 30%;
+  height: 5%;
+  margin-bottom: 3%;
+}
+
+.form .imgg {
+  float: right;
+}
+
+.form .img:not(:first-child) {
+  display: flex;
+}
+
+.form .info {
+  width: 400px;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30%;
+}

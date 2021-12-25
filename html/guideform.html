@@ -1,0 +1,46 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>guidepage</title>
+    <link rel="stylesheet" href="guideform.css" />
+    <script>
+      var loadfile = function (event) {
+        var image = document.getElementById("output");
+        image.src = URL.createObjectURL(event.target.files[0]);
+      };
+    </script>
+  </head>
+
+  <body>
+    <div class="guideform">
+      <form class="form" action="">
+        <h1>Fill up the guide form</h1>
+        <div class="imgg">
+          <p><img id="output" width="200" style="background-color: azure" /></p>
+          <input
+            type="file"
+            accept="image/gif, image/jpeg, image/png"
+            onchange="loadfile(event)"
+            id="photo"
+          /><br />
+          <label class="pic" for="file">upload pic</label>
+        </div>
+        <div class="info">
+          <label>First Name</label><br />
+          <input type="text" id="firtname" /><br />
+          <label>Last Name</label><br />
+          <input type="text" id="lasttname" /><br />
+          <label>Address</label><br />
+          <input type="text" id="address" /><br />
+          <label>email</label><br />
+          <input type="email" id="email" /><br />
+          <label>phone</label><br />
+          <input type="text" id="phone" /><br />
+          <label>Description</label><br />
+          <input type="text" id="firstname" /><br />
+          <input type="submit" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

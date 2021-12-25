@@ -1,16 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap");
 * {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   outline: none;
   border: none;
   text-decoration: none;
   text-transform: capitalize;
-  -webkit-transition: all .2s linear;
-  transition: all .2s linear;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
 }
 
 html {
@@ -85,22 +85,22 @@ section {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   padding: 1.5rem 9%;
 }
 
-.header .navbarr a {
+.header .navbar a {
   font-size: 1.7rem;
   color: #aaa;
   display: inline-block;
   margin: 0 1rem;
 }
 
-.header .navbarr a:hover {
+.header .navbar a:hover {
   color: #29d9d5;
 }
 
@@ -116,7 +116,7 @@ section {
 
 .logo i {
   color: #29d9d5;
-  padding-right: .5rem;
+  padding-right: 0.5rem;
 }
 
 #menu-btn {
@@ -131,8 +131,16 @@ section {
   margin-top: 9rem;
   width: 90%;
   border-radius: 1rem;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(17, 17, 17, 0.7)), to(rgba(17, 17, 17, 0.7))), url(../img/na.jpg) no-repeat;
-  background: linear-gradient(rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 0.7)), url(../img/na.jpg) no-repeat;
+  background: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(17, 17, 17, 0.7)),
+      to(rgba(17, 17, 17, 0.7))
+    ),
+    url(../img/na.jpg) no-repeat;
+  background: linear-gradient(rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 0.7)),
+    url(../img/na.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   display: -webkit-box;
@@ -141,11 +149,11 @@ section {
   min-height: 80vh;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   padding-bottom: 5rem;
 }
 
@@ -181,7 +189,7 @@ section {
   background: #222;
   border-radius: 1rem;
   -webkit-box-shadow: 0 0.5rem 1rem rgba(17, 17, 17, 0.3);
-          box-shadow: 0 0.5rem 1rem rgba(17, 17, 17, 0.3);
+  box-shadow: 0 0.5rem 1rem rgba(17, 17, 17, 0.3);
   padding: 3rem 2rem;
 }
 
@@ -190,17 +198,17 @@ section {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   gap: 1.5rem;
 }
 
 .book-form form .inputBox {
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 25rem;
-          flex: 1 1 25rem;
+  -ms-flex: 1 1 25rem;
+  flex: 1 1 25rem;
 }
 
 .book-form form .inputBox span {
@@ -222,17 +230,15 @@ section {
 
 .book-form form .btn {
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 15rem;
-          flex: 1 1 15rem;
+  -ms-flex: 1 1 15rem;
+  flex: 1 1 15rem;
 }
-
-
 
 .hotel .box-container {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (minmax(27rem, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+  -ms-grid-columns: (minmax(27rem, 1fr)) [auto-fit];
+  grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
   gap: 1.5rem;
 }
 
@@ -244,7 +250,7 @@ section {
 
 .hotel .box-container .box:hover img {
   -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .hotel .box-container .box .image {
@@ -257,7 +263,7 @@ section {
   height: 100%;
   width: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .hotel .box-container .box .content {
@@ -287,12 +293,20 @@ section {
 }
 
 .hotel .box-container .box .content a i {
-  padding-right: .5rem;
+  padding-right: 0.5rem;
 }
 
 .banner {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(17, 17, 17, 0.7)), to(rgba(17, 17, 17, 0.7))), url(../img/na.jpg) no-repeat;
-  background: linear-gradient(rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 0.7)), url(../img/na.jpg) no-repeat;
+  background: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(17, 17, 17, 0.7)),
+      to(rgba(17, 17, 17, 0.7))
+    ),
+    url(../img/na.jpg) no-repeat;
+  background: linear-gradient(rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 0.7)),
+    url(../img/na.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   padding: 3rem 2rem;
@@ -319,12 +333,11 @@ section {
   line-height: 2;
 }
 
-
 .footer .box-container {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (minmax(25rem, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  -ms-grid-columns: (minmax(25rem, 1fr)) [auto-fit];
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   gap: 1.5rem;
 }
 
@@ -350,7 +363,7 @@ section {
 }
 
 .footer .box-container .box p i {
-  padding-right: .5rem;
+  padding-right: 0.5rem;
   color: #29d9d5;
 }
 
@@ -367,7 +380,7 @@ section {
   font-size: 1.7rem;
   border: 0.2rem solid #29d9d5;
   color: #29d9d5;
-  margin-right: .5rem;
+  margin-right: 0.5rem;
   text-align: center;
 }
 
@@ -392,7 +405,7 @@ section {
 }
 
 .footer .box-container .box .links i {
-  padding-right: .5rem;
+  padding-right: 0.5rem;
   color: #29d9d5;
 }
 
@@ -436,20 +449,20 @@ section {
   #menu-btn {
     display: inline-block;
   }
-  .header .navbarr {
+  .header .navbar {
     position: absolute;
     top: 99%;
     left: 0;
     right: 0;
     background: #222;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-            clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
   }
-  .header .navbarr.active {
+  .header .navbar.active {
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   }
-  .header .navbarr a {
+  .header .navbar a {
     margin: 2rem;
     font-size: 2rem;
     display: block;
