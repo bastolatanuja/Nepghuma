@@ -42,3 +42,8 @@ input {
     margin-right: auto;
     margin-top: 30%;
 }
+
+body {
+    background: #111;
+    overflow-x: hidden;
+  }
