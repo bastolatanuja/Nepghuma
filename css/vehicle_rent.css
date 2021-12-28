@@ -93,14 +93,14 @@ section {
   padding: 1.5rem 9%;
 }
 
-.header .navbar a {
+.header .navbarrr a {
   font-size: 1.7rem;
   color: #aaa;
   display: inline-block;
   margin: 0 1rem;
 }
 
-.header .navbar a:hover {
+.header .navbarrr a:hover {
   color: #29d9d5;
 }
 
