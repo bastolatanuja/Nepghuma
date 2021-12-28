@@ -233,13 +233,15 @@ section {
   display: grid;
   -ms-grid-columns: (minmax(27rem, 1fr))[auto-fit];
       grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
-  gap: 1.5rem;
+  gap: 3.5rem;
 }
 
 .hotel .box-container .box {
   border-radius: 1rem;
   overflow: hidden;
   background: #222;
+  box-shadow: 0 1rem 2rem rgb(41,217,213);
+  border-radius: 2rem;
 }
 
 .hotel .box-container .box:hover img {
