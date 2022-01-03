@@ -2,32 +2,16 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>nepGhuma</title>
+    <title>webIQ</title>
 
-    <!-- font awesome cdn link  -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-    />
-
-    <!-- custom css file link  -->
-    <link rel="stylesheet" href="css/book_driver.css" />
-
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
-    />
-
-    <!-- custom js file link  -->
-
-    <script src="js/book_driver.js" defer></script>
+    <link rel="stylesheet" href="css/food.css" />
   </head>
-  <body>
-    <!-- header section starts  -->
 
-    <header class="header">
+  <body>
+     <!-- header section starts  -->
+
+     <header class="header">
       <div id="menu-btn" class="fas fa-bars"></div>
 
       <a href="home.html"
@@ -55,194 +39,57 @@
     </header>
 
     <!-- header section ends -->
-
-    <!-- home section starts  -->
-
-    <section class="home" id="home">
-        <div class="content">
-            <span data-aos="fade-up" data-aos-delay="150">nepGhumau</span>
-            <h3 data-aos="fade-up" data-aos-delay="300">Driver</h3>
-            <p data-aos="fade-up" data-aos-delay="450">
-              Hire a Driver for you
+    
+    <div class="grid">
+      <div class="grid-item">
+        <div class="card">
+          <img class="card-img"
+           src="./img/Driver 3.jpg"
+           alt="pepe"
+           />
+          <div class="card-content">
+            <h1 class="card-header">Rome</h1>
+            <p class="card-text">
+              Rome is known for its stunning <strong> architecture</strong>,
+              with the Colleseum, Pantheon, and Trevi Fountain as the main
+              attractions.
             </p>
-            <a data-aos="fade-up" data-aos-delay="600" href="#driver-details" class="btn" >Hire</a>
+            <button class="card-btn">Visit <span>&rarr;</span></button>
           </div>
-    </section>
-
-    <!-- home section ends -->
-
-    <!-- guide details section starts  -->
-
-    <section class="driver-details" >
-         
-        <div class="swiper-container guide-slider">
-        
-            <div class="swiper-wrapper">
-    
-                <div class="swiper-slide">
-                    <div class="box">
-                        <img data-aos="zoom-in" data-aos-delay="150" src="img/Driver 2.jpg" alt="">
-                        <h3 data-aos="fade-up" data-aos-delay="300">Ram Lopez</h3>
-                        <p data-aos="fade-up" data-aos-delay="450">Lives in Nepal. Expertise Area: Rukum</p>
-                        <div data-aos="zoom-in" data-aos-delay="600" class="stars">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="box">
-                        <img data-aos="zoom-in" data-aos-delay="150" src="img/Driver 1.jpg" alt="">
-                        <h3 data-aos="fade-up" data-aos-delay="300"></h3>
-                        <p data-aos="fade-up" data-aos-delay="450">Lives in Nepal. Expertise Area: Parbat</p>
-                        <div data-aos="zoom-in" data-aos-delay="600" class="stars">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="box">
-                        <img data-aos="zoom-in" data-aos-delay="150" src="img/Driver 3.jpg" alt="">
-                        <h3 data-aos="fade-up" data-aos-delay="300">Hari Sins</h3>
-                        <p data-aos="fade-up" data-aos-delay="450">Lives in Nepal. Expertise Area: Jhapa</p>
-                        <div data-aos="zoom-in" data-aos-delay="600" class="stars">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="box">
-                        <img data-aos="zoom-in" data-aos-delay="150" src="img/Driver 4.jpg" alt="">
-                        <h3 data-aos="fade-up" data-aos-delay="300">Dhurmus</h3>
-                        <p data-aos="fade-up" data-aos-delay="450">Lives in Nepal. Expertise Area: Jumla</p>
-                        <div data-aos="zoom-in" data-aos-delay="600" class="stars">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="box">
-                        <img data-aos="zoom-in" data-aos-delay="150" src="img/Driver 5.jpg" alt="">
-                        <h3 data-aos="fade-up" data-aos-delay="300">Radhe Giri</h3>
-                        <p data-aos="fade-up" data-aos-delay="450">Lives in Nepal. Expertise Area: kathmandu</p>
-                        <div data-aos="zoom-in" data-aos-delay="600" class="stars">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="box">
-                        <img data-aos="zoom-in" data-aos-delay="150" src="img/Driver 6.jpg" alt="">
-                        <h3 data-aos="fade-up" data-aos-delay="300">Sita Sharma</h3>
-                        <p data-aos="fade-up" data-aos-delay="450">Lives in Nepal. Expertise Area: pokhara</p>
-                        <div data-aos="zoom-in" data-aos-delay="600" class="stars">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="box">
-                        <img data-aos="zoom-in" data-aos-delay="150" src="img/Drivers 7.jpg" alt="">
-                        <h3 data-aos="fade-up" data-aos-delay="300">Rita Neupane</h3>
-                        <p data-aos="fade-up" data-aos-delay="450">Lives in Nepal. Expertise Area: Kailali</p>
-                        <div data-aos="zoom-in" data-aos-delay="600" class="stars">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                    </div>
-                </div>
-    
-            </div>
-    
-        </div>
-    </section>
-
-    <!-- guide details section ends  -->
-
-    <!-- footer section starts  -->
-
-    <section class="footer">
-      <div class="box-container">
-        <div class="box" data-aos="fade-up" data-aos-delay="150">
-          <a href="home.html"
-            ><img src="../img/404 logo.png" width="150" height="80"
-          /></a>
-          <p>A perfect travel guide book</p>
-        </div>
-
-        <div class="box" data-aos="fade-up" data-aos-delay="300">
-          <h3>quick links</h3>
-          <a href="flights.html" class="links">
-            <i class="fas fa-arrow-right"></i> Flights
-          </a>
-          <a href="hotel.html" class="links">
-            <i class="fas fa-arrow-right"></i> Hotel
-          </a>
-          <a href="vehichle_rent.html" class="links">
-            <i class="fas fa-arrow-right"></i> Vehicle Rent
-          </a>
-          <a href="things_to_do.html" class="links">
-            <i class="fas fa-arrow-right"></i> Things to do
-          </a>
-          <a href="explore.html" class="links">
-            <i class="fas fa-arrow-right"></i> Explore
-          </a>
-          <a href="food.html" class="links">
-            <i class="fas fa-arrow-right"></i> Food
-          </a>
-          <a href="blogs.html" class="links">
-            <i class="fas fa-arrow-right"></i> Blogs
-          </a>
-        </div>
-
-        <div class="box" data-aos="fade-up" data-aos-delay="450">
-          <h3>Contact info</h3>
-          <p><i class="fas fa-map"></i> Kathmandu, Nepal</p>
-          <p><i class="fas fa-phone"></i> +977-9880327811</p>
-          <p><i class="fas fa-envelope"></i> team404@gmail.com</p>
         </div>
       </div>
-    </section>
-
-    <div class="credit">Created by <span>404 Not Found</span></div>
-
-    <!-- footer section ends -->
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-
-    <script>
-      AOS.init({
-        duration: 800,
-        offset: 150,
-      });
-    </script>
+      <div class="grid-item">
+        <div class="card">
+          <img
+            class="card-img"
+            src="./img/Driver 1.jpg"
+            alt="Grand Canyon"
+          />
+          <div class="card-content">
+            <h1 class="card-header">Grand Canyon</h1>
+            <p class="card-text">
+              One of the world's natural wonders, the iconic Grand Canyon draws
+              oohs and aahs from visitors perched at the edge of its
+              <strong>towering cliffs</strong>.
+            </p>
+            <button class="card-btn">Visit <span>&rarr;</span></button>
+          </div>
+        </div>
+      </div>
+      <div class="grid-item">
+        <div class="card">
+          <img class="card-img" src="./img/Driver 2.jpg" alt="Maldives" />
+          <div class="card-content">
+            <h1 class="card-header">Maldives</h1>
+            <p class="card-text">
+              The Maldives are known for their
+              <strong>natural environment</strong> including the blue ocean,
+              white beaches, and clean air, attracting tourists.
+            </p>
+            <button class="card-btn">Visit <span>&rarr;</span></button>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
