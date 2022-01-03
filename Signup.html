@@ -15,16 +15,17 @@
         <div class="forms-container">
             <div class="signin-signup">
                 <!-- login form -->
-                <form action="" class="sign-in-form">
+                <form action="" class="sign-in-form" id="form1">
                     <h2 class="title">Sign in</h2>
                     <div class="input-field">
                         <i class="fas fa-user"></i>
-                        <input type="text" placeholder=username>
+                        <input type="text" placeholder=username id="usertxt">
                     </div>
                     <div class="input-field">
                         <i class="fas fa-lock"></i>
-                        <input type="password" placeholder="password">
+                        <input type="password" placeholder="password" id="passwordtxt">
                     </div>
+                    <div id="error1"></div>
                     <input type="submit" value="Login" class="btn solid">
 
                     <p class="social-text">Or sign in with social platforms</p>
@@ -45,19 +46,21 @@
                 </form>
                 <!-- login form end -->
                 <!-- sign up start -->
-                <form action="" class="sign-up-form">
+                <form action="" class="sign-up-form" id='form2'>
                     <h2 class="title">Sign Up</h2>
                     <div class="input-field">
                         <i class="fas fa-user"></i>
-                        <input type="text" placeholder=username>
+                        <input type="text" placeholder=username id='nametxt'>
                     </div>
                     <div class="input-field">
                         <i class="fas fa-envelope"></i>
-                        <input type="text" placeholder=Email>
+                        <input type="email" placeholder=Email id='emailtxt'>
                     </div>
                     <div class="input-field">
                         <i class="fas fa-lock"></i>
-                        <input type="password" placeholder="password">
+                        <input type="password" placeholder="password" id='passtxt'>
+                    </div>
+                    <div id="error2" class="error">
                     </div>
                     <input type="submit" value="Sign up" class="btn solid">
 
@@ -83,20 +86,21 @@
         <div class="panels-container">
             <div class="panel left-panel">
                 <div class="content">
-                    <h3>New here</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas et quisquam saepe.</p>
+                    <h3>New here?</h3>
+                    <p> The journey of a thousand miles begins with a single step.</p>
                     <button class="btn transparent" id="sign-up-btn">Sign up</button>
                 </div>
-                <img src="img/img-2.jpg" class="image" alt="pic">
+                <!-- <img src="img/nepalpic.jpg" class="image" alt="pic"> -->
+
             </div>
             <!-- right paneel -->
             <div class="panel right-panel">
                 <div class="content">
-                    <h3>One of us?</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas et quisquam saepe.</p>
+                    <h3>Already have an account</h3>
+                    <p> The journey of a thousand miles begins with a single step.</p>
                     <button class="btn transparent" id="sign-in-btn">Sign in</button>
                 </div>
-                <img src="img/home1.jpg" class="image" alt="pic">
+                <!-- <img src="img/home1.jpg" class="image" alt="pic"> -->
             </div>
         </div>
     </div>
