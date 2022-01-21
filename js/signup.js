@@ -42,19 +42,23 @@ form1.addEventListener('submit', (e) => {
  form2.addEventListener('submit', (e) => {
         
     let messages1 = []
-    if(user1.value==''){
-        messages1.push('Email is required')
+    
+    if(user1.value=='' || email.value=='' || password1.value==""){
+        messages1.push("All data required")
     }
-    if(email.value==''){
+    if(user1.value=='' && email.value!='' && password1.value!="" ){
+        messages1.push('Username is required')
+    }
+    if(email.value==''  && password1.value!="" && user1.value!='' ){
         messages1.push('Email is required')
     }
 
-    if(password1.value.length <=6){
-        messages1.push('Invalid password')
+    if(  email.value!='' && password1.value.length <=6 && user1.value!=''){
+        messages1.push(' Password required more than 6 char required')
     }
  
     if (password1.value.length >=20){
-        messages1.push("Less than 20 character")
+        messages1.push(" password required Less than 20 character")
     }
     if(messages1.length > 0) {
      e.preventDefault()

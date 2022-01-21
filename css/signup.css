@@ -130,7 +130,10 @@ form.sign-up-form{
 }
 #error2{
     background-color: thistle;
-    color:tomato
+    color:tomato;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius:25px;
 }
 
 .btn{
