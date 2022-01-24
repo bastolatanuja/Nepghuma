@@ -226,6 +226,44 @@ html {
 
 
 
+form{
+  top: 100%;
+  left: 50%;
+  margin: auto;
+  padding: 2px;
+  width: 700px;
+  background-color: #561b39;
+  font-size: 20px;
+  color: white;
+  font-family: sans-serif;
+  opacity: 0.7;
+ 
+}
+
+
+input[type="text"]{
+  padding: 5px;
+  width: 80%;
+  font-size: 18px;
+
+}
+
+input[type="submit"]{
+  padding: 5px;
+  font-size: 20px;
+  width: 100px;
+ 
+}
+
+
+select{
+  padding: 5px;
+  font-size: 20px;
+  background-color: white;
+}
+
+
+
 
 
 
